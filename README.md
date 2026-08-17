@@ -14,7 +14,7 @@ Medusa 2 backend with an optionally linked Astro storefront repository. The stor
 1. Clone the repository together with the storefront submodule:
 
    ```bash
-   git clone --recurse-submodules <MEDUSA_ASTRO_REPOSITORY_URL>
+   git clone --recurse-submodules https://github.com/pfulara/medusa-astro.git
    cd medusa_astro
    ```
 
