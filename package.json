@@ -1,0 +1,19 @@
+{
+  "name": "medusa-astro",
+  "version": "1.0.0",
+  "description": "Medusa + Astro template",
+  "private": true,
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "pnpm --filter @dtc/backend build && pnpm --filter storefront build",
+    "dev:medusa": "pnpm --filter @dtc/backend dev",
+    "dev:storefront": "pnpm --filter storefront dev",
+    "start:medusa": "pnpm --filter @dtc/backend start",
+    "preview:storefront": "pnpm --filter storefront preview",
+    "lint": "pnpm --filter @dtc/backend lint",
+    "test": "pnpm --filter @dtc/backend test:unit"
+  }
+}

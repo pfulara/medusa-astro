@@ -1,0 +1,15 @@
+.git
+.gitmodules
+.DS_Store
+.pnpm-store
+**/.astro
+**/.git
+**/.turbo
+**/dist
+**/node_modules
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.template
+npm-debug.log*
+pnpm-debug.log*

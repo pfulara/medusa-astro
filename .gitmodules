@@ -1,0 +1,4 @@
+[submodule "storefront"]
+	path = storefront
+	url = https://github.com/pfulara/medusa-astro-starter.git
+	branch = main
