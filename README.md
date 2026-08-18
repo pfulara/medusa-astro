@@ -38,7 +38,7 @@ Medusa 2 backend with an optionally linked Astro storefront repository. The stor
    AUTH_CORS=http://localhost:8000,http://localhost:9000
    ```
 
-4. Copy .env.example to .env:
+4. Copy `storefront/.env.example` to `storefront/.env`:
 
    ```dotenv
    BACKEND_URL=http://localhost:9000
