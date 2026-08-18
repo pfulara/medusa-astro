@@ -41,7 +41,7 @@ Medusa 2 backend with an optionally linked Astro storefront repository. The stor
 4. Copy `storefront/.env.example` to `storefront/.env`:
 
    ```dotenv
-   BACKEND_URL=http://localhost:9000
+   PUBLIC_MEDUSA_BACKEND_URL=http://localhost:9000
    MEDUSA_PUBLISHABLE_KEY=pk_your_publishable_key
    ```
 
