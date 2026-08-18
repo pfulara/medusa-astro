@@ -38,7 +38,14 @@ Medusa 2 backend with an optionally linked Astro storefront repository. The stor
    AUTH_CORS=http://localhost:8000,http://localhost:9000
    ```
 
-4. Start the backend and storefront in separate terminals:
+4. Copy .env.example to .env:
+
+   ```dotenv
+   BACKEND_URL=http://localhost:9000
+   MEDUSA_PUBLISHABLE_KEY=pk_your_publishable_key
+   ```
+
+5. Start the backend and storefront in separate terminals:
 
    ```js
    pnpm dev:medusa
